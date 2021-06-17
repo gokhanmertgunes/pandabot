@@ -1,0 +1,14 @@
+{
+  "name": "pandabotu",
+  "version": "0.0.1",
+  "description": "",
+  "main": "panda.js",
+  "scripts": {
+    "test": "node deneme.js"
+  },
+  "author": "Panda",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
