@@ -7,7 +7,7 @@ var prefix = isaret.prefix
 
 client.on('ready', () => {
 	console.log(`Sunucuya girdi botunuz ${client.user.tag}!`);
-	client.user.setActivity('Bakımda - "Gökhan"', { type: 'PLAYING'})
+	client.user.setActivity('pnd help"', { type: 'PLAYING'})
 	.then(presence => console.log('Durum --> aktif oldu.'))
 	.catch(console.error);
 });
@@ -26,14 +26,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if(msg.content.toLowerCase() === prefix + ' ' + 'naber') {
-    msg.channel.send('iyidir yavru');
-  }
-});
-
-client.on('message', msg => {
-  if(msg.content.toLowerCase() === 'ananı sikm') {
-		msg.delete()
-    msg.channel.send('Çok ayıp kanka');
+    msg.channel.send('İyiyim Teşekkür ederim, sen nasılsın?');
   }
 });
 
@@ -48,7 +41,7 @@ client.on('message', msg => {
 		const kanal = new MessageEmbed()
 
 		.setTitle('Panda Blue')
-		.setDescription('Yaratıcım -> Gökhan')
+		.setDescription('Creator -> Gökhan')
 		.setAuthor('Gökhan')
 		.setColor("RANDOM")
 		.setThumbnail('https://cdn.discordapp.com/attachments/855187027499024415/855192943773876274/unknown.png')
